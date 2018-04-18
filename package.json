@@ -1,0 +1,16 @@
+{
+  "name": "critical-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-less": "./bin/build-less.sh",
+    "build-sass": "./bin/build-sass.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.0.1",
+    "node-sass": "^4.8.3"
+  }
+}

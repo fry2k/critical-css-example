@@ -1,0 +1,13 @@
+@include is-critical {
+	.product-carousel {
+		.price {
+			color: red;
+		}
+	}
+}
+@include is-non-critical {
+	.newsletter-sign-in {
+		border: 1px solid gray;
+		padding: 5px;
+	}
+}

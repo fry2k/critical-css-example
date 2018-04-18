@@ -1,0 +1,13 @@
+@critical: false;
+
+.is-non-critical(@content) {
+    & when (@critical = false) {
+        @content();
+    }
+}
+
+.is-critical(@content) {
+    & when (@critical = true) {
+        @content();
+    }
+}

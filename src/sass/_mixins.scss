@@ -1,0 +1,13 @@
+$critical: false !default;
+
+@mixin is-non-critical {
+	@if $critical != true {
+		@content;
+	}
+}
+
+@mixin is-critical {
+	@if $critical == true {
+		@content;
+	}
+}
